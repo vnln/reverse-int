@@ -1,3 +1,1 @@
-module.exports = function reverse (n) {
-  
-}
+module.exports = (n) => [...(Math.abs(n) + "")].reverse().join("");
